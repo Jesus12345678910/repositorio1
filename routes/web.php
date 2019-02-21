@@ -15,6 +15,10 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/info', function () {
-    return "Informacion de la pagina";
-});
+Route::get('/info', 'PaginasController@info');
+Route::get('/contacto', 'PaginasController@contacto');
+Route::get('/bienvenida/{nombre}/{apellido?}', 'PaginasController');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
