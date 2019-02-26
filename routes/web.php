@@ -17,7 +17,8 @@ Route::get('/', function () {
 
 Route::get('/info', 'PaginasController@info');
 Route::get('/contacto', 'PaginasController@contacto');
-Route::get('/bienvenida/{nombre}/{apellido?}', 'PaginasController');
+Route::get('/bienvenida/{nombre}/{apellido?}', 'PaginasController@bienvenida');
+Route::get('/equipo', 'PaginasController@equipo');
 
 Auth::routes();
 

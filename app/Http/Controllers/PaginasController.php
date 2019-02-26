@@ -8,20 +8,24 @@ class PaginasController extends Controller
 {
     public function info()
     {
-      return view('pagina.informacion');
+      return view('paginas.informacion');
     }
 
     public function contacto()
     {
-      return view('pagina.contacto');
+      return view('paginas.contacto');
     }
-
     public function bienvenida($nombre, $apellido= null)
     {
-return view('paginas.bienvenida')
-->with([
-  'nombre'=>$nombre,
-  'apellido'=>$apellido
-]);
+        return view('paginas.bienvenida')
+        ->with([
+          'nombre'=>$nombre,
+          'apellido'=>$apellido
+        ]);
     }
+    public function equipo()
+    {
+      return view('paginas.equipo');
+    }
+
 }
