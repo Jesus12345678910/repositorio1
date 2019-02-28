@@ -2,18 +2,36 @@
 
 @section('content')
 <div class="row">
-    <div class="col -8 offset-2">
+    <div class="col -5 offset-1">
       <table class="table">
-        <thead>
+        <caption>Programadores</caption>
+
+        <thead  class="table-primary">
           <tr>
-            <th>Nombre</th>
-            <th>Codigo</th>
+            <th scope="col">#</th>
+            <th scope="col">Nombres</th>
+            <th scope="col">Apellidos</th>
+            <th scope="col">Codigo</th>
           </tr>
         </thead>
         <tbody>
-          <tr class="table-success">
-            <td>Jesus</td>
+          <tr>
+            <th scope="row">1</th>
+            <td>Jesus Alberto</td>
+            <td>Garcia Zamudio</td>
             <td>212566697</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Eduardo Daniel</td>
+            <td>Chavez Rodriguez</td>
+            <td>1234526</td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td>Saul Eduardo</td>
+            <td>Gonzalez</td>
+            <td>1234567</td>
           </tr>
         </tbody>
       </table>
