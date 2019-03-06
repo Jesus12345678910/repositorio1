@@ -19,7 +19,7 @@ Route::get('/informacion', 'PaginasController@info');
 Route::get('/contacto', 'PaginasController@contacto');
 Route::get('/bienvenida/{nombre}/{apellido?}', 'PaginasController@bienvenida');
 Route::get('/equipo', 'PaginasController@equipo');
-
+Route::get('/productos', 'productosController@index')->name('productos.index');
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
