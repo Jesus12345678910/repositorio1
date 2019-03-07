@@ -3,7 +3,7 @@
 
   <div class="row">
   <div class="col-8">
-    <h1>Documentos</h1>
+    <h1>Productos de {{session('apodo')}}</h1>
     <table class="table">
     <thead>
       <tr>

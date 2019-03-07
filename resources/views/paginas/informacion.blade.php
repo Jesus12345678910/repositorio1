@@ -5,7 +5,7 @@
 <div class="container">
     <div class="row justify-content-center">
       <div class="card border-info mb-3" style="max-width: 55rem;">
-  <div class="card-header"><h5 align="center">Acrca de nosotros</h5></div>
+  <div class="card-header"><h5 align="center">Acerca de nosotros</h5></div>
   <div class="card-body">
     <p class="card-text"> <h5 align="justify">
         Somos una página web en la cual puedas hacer las compras que sueles

@@ -27,6 +27,13 @@ class LoginController extends Controller
      */
     protected $redirectTo = '/home';
 
+    protected function redirectTo()
+    {
+      session(['apodo' => 'Edd']);
+
+      return '/documentos';
+    }
+
     /**
      * Create a new controller instance.
      *
