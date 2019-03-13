@@ -90,7 +90,7 @@
                     <a href="http://abarrotesmx.test/contacto">Contact US</a>
                     <a href="https://blog.laravel.com">Blog</a>
                     <a href="{{route('productos.index')}}">Docs</a>
-                    <a href="https://nova.laravel.com">Nova</a>
+                    <a href="http://abarrotesmx.test/inicio">Inicio</a>
                     <a href="https://forge.laravel.com">Forge</a>
                     <a href="https://github.com/laravel/laravel">GitHub</a>
                 </div>
