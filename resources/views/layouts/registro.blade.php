@@ -1,129 +1,77 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<title>Contact V3</title>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-<!--===============================================================================================-->
-	<link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css">
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="css/util.css">
-	<link rel="stylesheet" type="text/css" href="css/main.css">
-<!--===============================================================================================-->
-</head>
-<body>
+@extends('layouts.app')
 
-	<div class="bg-contact3" style="background-image: url('images/bg-01.jpg');">
-		<div class="container-contact3">
-			<div class="wrap-contact3">
-				<form class="contact3-form validate-form">
-					<span class="contact3-form-title">
-						Contact Us
-					</span>
+@section('content')
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card">
+                <div class="card-header">{{ __('Register') }}</div>
 
-					<div class="wrap-contact3-form-radio">
-						<div class="contact3-form-radio m-r-42">
-							<input class="input-radio3" id="radio1" type="radio" name="choice" value="say-hi" checked="checked">
-							<label class="label-radio3" for="radio1">
-								Say Hi
-							</label>
-						</div>
+                <div class="card-body">
+                    <form method="POST" action="{{ route('register') }}">
+                        @csrf
 
-						<div class="contact3-form-radio">
-							<input class="input-radio3" id="radio2" type="radio" name="choice" value="get-quote">
-							<label class="label-radio3" for="radio2">
-								Get a Quote
-							</label>
-						</div>
-					</div>
+                        <div class="form-group row">
+                            <label for="name" class="col-md-4 col-form-label text-md-right">{{ __('Name') }}</label>
 
-					<div class="wrap-input3 validate-input" data-validate="Name is required">
-						<input class="input3" type="text" name="name" placeholder="Your Name">
-						<span class="focus-input3"></span>
-					</div>
+                            <div class="col-md-6">
+                                <input id="name" type="text" class="form-control{{ $errors->has('name') ? ' is-invalid' : '' }}" name="name" value="{{ old('name') }}" required autofocus>
 
-					<div class="wrap-input3 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
-						<input class="input3" type="text" name="email" placeholder="Your Email">
-						<span class="focus-input3"></span>
-					</div>
+                                @if ($errors->has('name'))
+                                    <span class="invalid-feedback" role="alert">
+                                        <strong>{{ $errors->first('name') }}</strong>
+                                    </span>
+                                @endif
+                            </div>
+                        </div>
 
-					<div class="wrap-input3 input3-select">
-						<div>
-							<select class="selection-2" name="service">
-								<option>Needed Services</option>
-								<option>eCommerce Bussiness</option>
-								<option>UI/UX Design</option>
-								<option>Online Services</option>
-							</select>
-						</div>
-						<span class="focus-input3"></span>
-					</div>
+                        <div class="form-group row">
+                            <label for="email" class="col-md-4 col-form-label text-md-right">{{ __('E-Mail Address') }}</label>
 
-					<div class="wrap-input3 input3-select">
-						<div>
-							<select class="selection-2" name="budget">
-								<option>Budget</option>
-								<option>1500 $</option>
-								<option>2000 $</option>
-								<option>3000 $</option>
-							</select>
-						</div>
-						<span class="focus-input3"></span>
-					</div>
+                            <div class="col-md-6">
+                                <input id="email" type="email" class="form-control{{ $errors->has('email') ? ' is-invalid' : '' }}" name="email" value="{{ old('email') }}" required>
 
-					<div class="wrap-input3 validate-input" data-validate = "Message is required">
-						<textarea class="input3" name="message" placeholder="Your Message"></textarea>
-						<span class="focus-input3"></span>
-					</div>
+                                @if ($errors->has('email'))
+                                    <span class="invalid-feedback" role="alert">
+                                        <strong>{{ $errors->first('email') }}</strong>
+                                    </span>
+                                @endif
+                            </div>
+                        </div>
 
-					<div class="container-contact3-form-btn">
-						<button class="contact3-form-btn">
-							Submit
-						</button>
-					</div>
-				</form>
-			</div>
-		</div>
-	</div>
+                        <div class="form-group row">
+                            <label for="password" class="col-md-4 col-form-label text-md-right">{{ __('Password') }}</label>
 
+                            <div class="col-md-6">
+                                <input id="password" type="password" class="form-control{{ $errors->has('password') ? ' is-invalid' : '' }}" name="password" required>
 
-	<div id="dropDownSelect1"></div>
+                                @if ($errors->has('password'))
+                                    <span class="invalid-feedback" role="alert">
+                                        <strong>{{ $errors->first('password') }}</strong>
+                                    </span>
+                                @endif
+                            </div>
+                        </div>
 
-<!--===============================================================================================-->
-	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
-<!--===============================================================================================-->
-	<script src="vendor/bootstrap/js/popper.js"></script>
-	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-<!--===============================================================================================-->
-	<script src="vendor/select2/select2.min.js"></script>
-	<script>
-		$(".selection-2").select2({
-			minimumResultsForSearch: 20,
-			dropdownParent: $('#dropDownSelect1')
-		});
-	</script>
-<!--===============================================================================================-->
-	<script src="js/main.js"></script>
+                        <div class="form-group row">
+                            <label for="password-confirm" class="col-md-4 col-form-label text-md-right">{{ __('Confirm Password') }}</label>
 
-	<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+                            <div class="col-md-6">
+                                <input id="password-confirm" type="password" class="form-control" name="password_confirmation" required>
+                            </div>
+                        </div>
 
-  gtag('config', 'UA-23581568-13');
-</script>
-
-</body>
-</html>
+                        <div class="form-group row mb-0">
+                            <div class="col-md-6 offset-md-4">
+                                <button type="submit" class="btn btn-primary">
+                                    {{ __('Register') }}
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+@endsection
