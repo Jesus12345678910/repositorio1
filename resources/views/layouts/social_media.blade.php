@@ -39,7 +39,7 @@
 						<a href="">PRIVACY POLICY</a>
 					</li>
 				</ul>
-				<p class="copyright-text">Powered by Bootstrap</p>
+
 			</div>
 		</div>
 	</div>

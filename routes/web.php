@@ -18,6 +18,10 @@ Route::get('/inicio', function () {
     return view('inicio');
 });
 
+Route::get('/registro', function () {
+    return view('registro');
+});
+
 Route::get('/informacion', 'PaginasController@info');
 Route::get('/contacto', 'PaginasController@contacto');
 Route::get('/bienvenida/{nombre}/{apellido?}', 'PaginasController@bienvenida');

@@ -18,8 +18,13 @@
 
 	          <!-- Home -->
 	          <li class="dropdown ">
-	            <a href="index.html">Home</a>
+	            <a href="/inicio">Home</a>
 	          </li><!-- / Home -->
+
+						<!-- Registro -->
+					 <li class="dropdown ">
+						 <a href="/registro">Registro</a>
+					 </li><!-- / Registro -->
 
 
 	          <!-- Elements -->
