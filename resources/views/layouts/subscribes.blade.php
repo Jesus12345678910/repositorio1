@@ -6,16 +6,8 @@
 					<h2>SUBSCRIBE TU TIENDA AHORA</h2>
 					<p>Aumenta tus ganancias registrando tu tienda <br>si no pues alv.</p>
 				</div>
-				<div class="col-lg-6 col-md-offset-3">
-				    <div class="input-group subscription-form">
-				      <span class="input-group-btn">
-								<label>
 
-<input type="submit" name="boton"
-
-
-
-value="enviar">
+				<a href="/registro" button class="btn btn-default" type="button">Registrate Ahora</a></button>
 
 </label>
 				      </span>
