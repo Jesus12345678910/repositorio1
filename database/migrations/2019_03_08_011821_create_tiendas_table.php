@@ -14,7 +14,12 @@ class CreateTiendasTable extends Migration
     public function up()
     {
         Schema::create('tiendas', function (Blueprint $table) {
-            $table->increments('id');
+            $table->unsignedInteger('id_direccion');
+            $table->increments('id_tienda');
+            $table->string('nombre');
+            $table->string('correo');
+            $table->unsignedInteger('telefono');
+            $table->string('propietario');
             $table->timestamps();
         });
     }

@@ -14,8 +14,13 @@ class CreateRepartidoresTable extends Migration
     public function up()
     {
         Schema::create('repartidores', function (Blueprint $table) {
-            $table->increments('id');
-            $table->timestamps();
+          $table->increments('id_repartidor');
+          $table->string('nombre');
+          $table->string('apellidos');
+          $table->unsignedInteger('telefono');
+          $table->Unsignedinteger('edad');
+          $table->string('email');
+          $table->timestamps();
         });
     }
 

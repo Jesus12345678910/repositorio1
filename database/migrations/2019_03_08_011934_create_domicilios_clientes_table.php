@@ -14,7 +14,13 @@ class CreateDomiciliosClientesTable extends Migration
     public function up()
     {
         Schema::create('domicilios_clientes', function (Blueprint $table) {
-            $table->increments('id');
+            $table->increments('id_domcli');
+            $table->string('calle');
+            $table->string('numeroCasa');
+            $table->string('colonia');
+            $table->string('municipio');
+            $table->unsignedInteger('codigoPostal');
+            $table->string('estado');
             $table->timestamps();
         });
     }
