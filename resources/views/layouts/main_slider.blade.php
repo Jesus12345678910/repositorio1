@@ -36,7 +36,7 @@
 					<!-- LAYERS -->
 
 					<!-- LAYER NR. 1 -->
-					<a  href="shop.html"
+					<a  href="/compras"
 						class="tp-caption rev-btn  tp-resizeme"
 						data-x="['left','left','left','left']"
 						data-hoffset="['170','120','70','40']"
@@ -123,7 +123,7 @@
 
 					<!-- LAYER NR. 6 -->
 					<a
-						href="shop.html"
+						href="/compras"
 						class="tp-caption rev-btn  tp-resizeme"
 						data-x="['left','left','left','left']"
 						data-hoffset="['880','760','600','330']"
@@ -217,6 +217,10 @@
 
 
 					<!-- LAYER NR. 10 -->
+
+
+
+
 					<div class="tp-caption   tp-resizeme"
 						id="slide-75-layer-2"
 						data-x="['center','center','center','center']"
@@ -240,6 +244,7 @@
 						style="z-index: 6; min-width: 650px; max-width: 650px; white-space: normal; font-size: 70px; line-height: 70px; font-weight: 400; color: #ffffff; letter-spacing: -2px;font-family:Playfair Display;">Encuentra las frutas y verduras</div>
 
 					<!-- LAYER NR. 11 -->
+
 					<div class="tp-caption   tp-resizeme"
 						id="slide-75-layer-3"
 						data-x="['center','center','center','center']"
@@ -260,7 +265,8 @@
 
 						style="z-index: 7; white-space: normal; font-size: 20px; line-height: 20px; font-weight: 400; color: #ffffff; letter-spacing: 10px;font-family:Roboto Condensed;">PRODUCTS </div>
 
-					<!-- LAYER NR. 12 -->
+					<!-- LAYER NR. 12
+
 					<div class="tp-caption rev-btn  tp-resizeme"
 						data-x="['center','center','center','center']"
 						data-hoffset="['0','0','0','0']"
@@ -274,8 +280,8 @@
 						data-frames='[{"delay":400,"speed":750,"sfxcolor":"#058a9b","sfx_effect":"blockfromtop","frame":"0","from":"z:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":500,"sfxcolor":"#ffffff","sfx_effect":"blocktotop","frame":"999","to":"z:0;","ease":"Power4.easeOut"},{"frame":"hover","speed":"0","ease":"Linear.easeNone","to":"o:1;rX:0;rY:0;rZ:0;z:0;","style":"c:rgb(0,0,0);bg:rgb(255,255,255);"}]'
 						data-textAlign="['center','center','center','center']"
 						data-paddingtop="[6,6,6,6]"
-						style="z-index: 8; white-space: normal; font-size: 22px; line-height: 50px; font-weight: 400; color: rgba(255,255,255,1); letter-spacing: 2px;font-family:Roboto Condensed;border-color:rgb(255,255,255);border-style:solid;border-width:1px 1px 1px 1px;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;text-align:center!important;">Compra
-					</div>
+						style="z-index: 8; white-space: normal; font-size: 22px; line-height: 50px; font-weight: 400; color: rgba(255,255,255,1); letter-spacing: 2px;font-family:Roboto Condensed;border-color:rgb(255,255,255);border-style:solid;border-width:1px 1px 1px 1px;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;text-align:center!important;">
+					</div>-->
 				</li>
 			</ul>
 			<div class="tp-bannertimer" style="height: 10px; background: rgba(0, 0, 0, 0.15);"></div>

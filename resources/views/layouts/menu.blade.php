@@ -34,14 +34,14 @@
 
 	          <!-- Elements -->
 	          <li class="dropdown dropdown-slide">
-	            <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="350" role="button" aria-haspopup="true" aria-expanded="false">Shop <span class="tf-ion-ios-arrow-down"></span></a>
+	            <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="350" role="button" aria-haspopup="true" aria-expanded="false">Compras <span class="tf-ion-ios-arrow-down"></span></a>
 	            <div class="dropdown-menu">
 	              <div class="row">
 
 	                <!-- Basic -->
 	                <div class="col-lg-6 col-md-6 mb-sm-3">
 	                	<ul>
-							<li class="dropdown-header">Pages</li>
+
 							<li role="separator" class="divider"></li>
 							<li><a href="/compras">Compras</a></li>
 							<li><a href="checkout.html">Checkout</a></li>
