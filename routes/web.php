@@ -22,6 +22,10 @@ Route::get('/registro', function () {
     return view('registro');
 });
 
+Route::get('/compras', function () {
+    return view('comprass');
+});
+
 Route::get('/informacion', 'PaginasController@info');
 Route::get('/contacto', 'PaginasController@contacto');
 Route::get('/bienvenida/{nombre}/{apellido?}', 'PaginasController@bienvenida');
