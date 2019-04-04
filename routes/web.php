@@ -26,6 +26,10 @@ Route::get('/compras', function () {
     return view('comprass');
 });
 
+Route::get('/Detalle', function () {
+    return view('DetalleManzanas');
+});
+
 Route::get('/informacion', 'PaginasController@info');
 Route::get('/contacto', 'PaginasController@contacto');
 Route::get('/bienvenida/{nombre}/{apellido?}', 'PaginasController@bienvenida');

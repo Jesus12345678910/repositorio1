@@ -1,4 +1,4 @@
-@extends ('paginas.compras')
+@extends ('paginas.Detalle')
 @section ('contenido')
 
 
