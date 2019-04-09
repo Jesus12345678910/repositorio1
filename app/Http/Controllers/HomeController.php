@@ -26,3 +26,11 @@ class HomeController extends Controller
         return view('home');
     }
 }
+
+class HomeController extends controller
+{
+  public function __construct()
+  {
+    $this->middleware('auth')-> except ('inicio');
+  }
+}

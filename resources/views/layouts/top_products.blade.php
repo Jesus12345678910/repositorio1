@@ -94,7 +94,7 @@
 						<div class="preview-meta">
 							<ul>
 								<li>
-										<a href="/Detalle"><i class="tf-ion-ios-search-strong"></i></a>
+										<a href="/Detalle-Manzanas"><i class="tf-ion-ios-search-strong"></i></a>
 								</li>
 								<li>
 									<a href=""><i class="tf-ion-android-cart"></i></a>

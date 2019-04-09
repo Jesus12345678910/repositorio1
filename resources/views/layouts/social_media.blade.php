@@ -27,10 +27,10 @@
 				</ul>
 				<ul class="footer-menu">
 					<li>
-						<a href="">CONTACT</a>
+						<a href="/equipo">CONTACT</a>
 					</li>
 					<li>
-						<a href="">SHIPPING</a>
+						<a href="/compras">SHIPPING</a>
 					</li>
 					<li>
 						<a href="">TERMS OF SERVICE</a>
