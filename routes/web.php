@@ -30,9 +30,17 @@ Route::get('/Detalle-Manzanas', function () {
     return view('DetalleManzanas');
 });
 
+Route::get('/Compras-Frutas-Verduras', function () {
+    return view('ComprasFrutasyVerdurass');
+});
+
+Route::get('/Carrito', function () {
+    return view('CarritoCompras');
+});
 
 
-
+Route::get ('/Confirmacion', 'PaginasController@Confirmacion');
+Route::get ('/Metodo-Pago', 'PaginasController@Pago');
 Route::get('/informacion', 'PaginasController@info');
 Route::get('/contacto', 'PaginasController@contacto');
 Route::get('/bienvenida/{nombre}/{apellido?}', 'PaginasController@bienvenida');

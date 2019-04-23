@@ -66,8 +66,8 @@
                         <span class="total-price">$1799.00</span>
                     </div>
                     <ul class="text-center cart-buttons">
-                    	<li><a href="" class="btn btn-small">View Cart</a></li>
-                    	<li><a href="" class="btn btn-small btn-solid-border">Checkout</a></li>
+                    	<a href="/Carrito" class="btn btn-small">Carrito</a>
+                    	<a href="/Metodo-Pago" class="btn btn-small">Metodo de Pago</a>
                     </ul>
                 </div>
 

@@ -10,6 +10,15 @@ class PaginasController extends Controller
     {
       return view('paginas.informacion');
     }
+    public function Pago()
+    {
+      return view('MetododePago');
+    }
+
+    public function Confirmacion()
+    {
+      return view('Confirmacion');
+    }
 
     public function contacto()
     {

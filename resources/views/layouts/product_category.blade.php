@@ -8,7 +8,7 @@
 			</div>
 			<div class="col-md-6">
 				<div class="category-box">
-					<a href="/compras">
+					<a href="/Compras-Frutas-Verduras">
 						<img src="images/slider/slider-2.png" alt="" />
 
 						<div class="content">

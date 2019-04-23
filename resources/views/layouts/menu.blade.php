@@ -46,15 +46,13 @@
 							<li><a href="/compras">Compras</a></li>
 							<li><a href="checkout.html">Método de pago</a></li>
 							<li><a href="cart.html">Carrito</a></li>
-						
-
 	                	</ul>
 	                </div>
 
 	                <!-- Layout -->
 	                <div class="col-lg-6 col-md-6 mb-sm-3">
 	                	<ul>
-		                  <li class="dropdown-header">Layout</li>
+
 		                  <li role="separator" class="divider"></li>
 		                  <li><a href="product-single.html">Product Details</a></li>
 		                  <li><a href="shop-sidebar.html">Shop With Sidebar</a></li>
