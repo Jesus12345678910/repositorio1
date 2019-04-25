@@ -55,7 +55,7 @@
 			</div>
 			<div class="col-md-6">
 				<div class="category-box">
-					<a href="/compras">
+					<a href="/Compras-Frutas-Verduras">
 						<img src="images/slider/slider-2.png" alt="" />
 
 						<div class="content">
@@ -64,7 +64,7 @@
 					</a>
 				</div>
 				<div class="category-box">
-					<a href="/compras">
+					<a href="/Compras-Lacteos">
 						<img src="images/shop/category/lacteos.jpg" alt="" />
 						<div class="content">
 							<font color="white">
@@ -75,7 +75,7 @@
 					</a>
 				</div>
 				<div class="category-box">
-					<a href="/compras">
+					<a href="/Compras-Cereales">
 						<img src="images/shop/category/cereales.jpg" alt="" />
 
 						<div class="content">

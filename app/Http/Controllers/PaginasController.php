@@ -19,11 +19,19 @@ class PaginasController extends Controller
     {
       return view('Confirmacion');
     }
-
+    public function ComprasLacteos()
+    {
+      return view('ComprasLacteos');
+    }
+    public function ComprasCereales()
+    {
+      return view('ComprasCereales');
+    }
     public function contacto()
     {
       return view('paginas.contacto');
     }
+
     public function bienvenida($nombre, $apellido= null)
     {
         return view('paginas.bienvenida')

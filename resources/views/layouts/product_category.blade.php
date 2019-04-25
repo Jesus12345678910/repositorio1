@@ -17,7 +17,7 @@
 					</a>
 				</div>
 				<div class="category-box">
-					<a href="/compras">
+					<a href="/Compras-Lacteos">
 						<img src="images/shop/category/lacteos.jpg" alt="" />
 						<div class="content">
 							<font color="white">
@@ -28,7 +28,7 @@
 					</a>
 				</div>
 				<div class="category-box">
-					<a href="/compras">
+					<a href="/Compras-Cereales">
 						<img src="images/shop/category/cereales.jpg" alt="" />
 
 						<div class="content">

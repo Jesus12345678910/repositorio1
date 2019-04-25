@@ -10,7 +10,6 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
-
 Route::get('/', function () {
     return view('welcome');
 });
@@ -39,6 +38,13 @@ Route::get('/Carrito', function () {
 });
 
 
+Route::get ('cart/show', [
+  'as' => 'cart/show',
+  'uses' => 'CartController@Show'
+]);
+
+Route::get('/Compras-Cereales','PaginasController@ComprasCereales');
+Route::get('/Compras-Lacteos','PaginasController@ComprasLacteos');
 Route::get ('/Confirmacion', 'PaginasController@Confirmacion');
 Route::get ('/Metodo-Pago', 'PaginasController@Pago');
 Route::get('/informacion', 'PaginasController@info');
