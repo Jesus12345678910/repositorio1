@@ -39,6 +39,10 @@ class PaginasController extends Controller
     {
       return view('ComprasAlcohol');
     }
+    public function RegistroUsuario()
+    {
+      return view('RegistroU');
+    }
     public function contacto()
     {
       return view('paginas.contacto');

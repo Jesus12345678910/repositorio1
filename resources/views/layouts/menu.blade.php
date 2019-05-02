@@ -18,14 +18,31 @@
 
 	          <!-- Home -->
 	          <li class="dropdown ">
-	            <a href="/inicio">Home</a>
+	            <a href="/inicio">Inicio</a>
 	          </li><!-- / Home -->
 
 						<!-- Registro -->
-					 <li class="dropdown ">
-						 <a href="/registro">Registro</a>
+						<li class="dropdown dropdown-slide">
+						 <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="350" role="button" aria-haspopup="true" aria-expanded="false">Registrate <span class="tf-ion-ios-arrow-down"></span></a>
+						 <div class="dropdown-menu">
+							 <div class="row">
+
+								 <!-- Basic -->
+							 <div class="col-lg-10 col-md-10 mb-sm-1">
+									 <ul>
+
+						 <li role="separator" class="divider"></li>
+						 <li><a href="/registro">Registro de tiendas</a></li>
+						 <li><a href="/registroUsuario">Registro Usuario</a></li>
+
+									 </ul>
+								 </div>
 					 </li><!-- / Registro -->
 
+					 <!-- Login -->
+					<li class="dropdown ">
+						<a href="/login">Iniciar Sesión</a>
+					</li><!-- / Login -->
 					 <!-- compras
 					<li class="dropdown ">
 						<a href="/compras">Compras</a>
@@ -39,7 +56,7 @@
 	              <div class="row">
 
 	                <!-- Basic -->
-	                <div class="col-lg-6 col-md-6 mb-sm-3">
+	                <div class="col-lg-10 col-md-10 mb-sm-6">
 	                	<ul>
 
 							<li role="separator" class="divider"></li>
@@ -49,16 +66,7 @@
 	                	</ul>
 	                </div>
 
-	                <!-- Layout -->
-	                <div class="col-lg-6 col-md-6 mb-sm-3">
-	                	<ul>
 
-		                  <li role="separator" class="divider"></li>
-		                  <li><a href="product-single.html">Product Details</a></li>
-		                  <li><a href="shop-sidebar.html">Shop With Sidebar</a></li>
-
-	                	</ul>
-	                </div>
 
 	              </div><!-- / .row -->
 	            </div><!-- / .dropdown-menu -->

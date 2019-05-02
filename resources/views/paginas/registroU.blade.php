@@ -50,7 +50,7 @@
           <h2 class="text-center">Registrate</h2>
           <form class="text-left clearfix" action="index.htm" >
 <div class="form-group">
-   <input id="Nombre" type="name" class="form-control{{ $errors->has('Nombre') ? ' is-invalid' : '' }}" name="Nombre" value="{{ old('Nombre') }}" required placeholder="Nombre de la Tienda">
+   <input id="Nombre" type="name" class="form-control{{ $errors->has('Nombre') ? ' is-invalid' : '' }}" name="Nombre" value="{{ old('Nombre') }}" required placeholder="Nombre Completo">
 
              @if ($errors->has('Nombre'))
                  <span class="invalid-feedback" role="alert">
@@ -155,7 +155,7 @@
               <button type="submit" class="btn btn-main text-center" >Inicia Sesión</button>
             </div>
           </form>
-          
+        
         </div>
       </div>
     </div>
