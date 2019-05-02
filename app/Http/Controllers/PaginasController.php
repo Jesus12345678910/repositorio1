@@ -27,6 +27,18 @@ class PaginasController extends Controller
     {
       return view('ComprasCereales');
     }
+    public function ComprasCarnesF()
+    {
+      return view('ComprasCarnesF');
+    }
+    public function ComprasBebidas()
+    {
+      return view('ComprasBebidas');
+    }
+    public function ComprasAlcohol()
+    {
+      return view('ComprasAlcohol');
+    }
     public function contacto()
     {
       return view('paginas.contacto');

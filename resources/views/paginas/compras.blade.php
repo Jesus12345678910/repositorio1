@@ -84,7 +84,7 @@
 					</a>
 				</div>
 				<div class="category-box">
-					<a href="/compras">
+					<a href="/ComprasAlcohol">
 						<img src="images/shop/category/Alcohol.jpg" alt="" />
 
 						<div class="content">
@@ -97,7 +97,7 @@
 			</div>
 			<div class="col-md-6">
 				<div class="category-box category-box-2">
-					<a href="/compras">
+					<a href="/Compras-CarnesFrias">
 						<img src="images/shop/category/carnesfrias.jpg" alt="" />
 						<div class="content">
 							<h3>CARNES FRIAS</h3>
@@ -108,7 +108,7 @@
 			</div>
 			<div class="col-md-6">
 				<div class="category-box category-box-2">
-					<a href="/compras">
+					<a href="/ComprasBebidas">
 						<img src="images/shop/category/bebidas.png" alt="" />
 						<div class="content">
 							<h3>BEBIDAS</h3>
