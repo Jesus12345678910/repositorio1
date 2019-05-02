@@ -49,39 +49,87 @@
           </a>
           <h2 class="text-center">Registrate</h2>
           <form class="text-left clearfix" action="index.htm" >
-            <div class="form-group">
-              <input type="text" class="form-control"  placeholder="Nombre de la tienda">
+<div class="form-group">
+   <input id="Nombre" type="name" class="form-control{{ $errors->has('Nombre') ? ' is-invalid' : '' }}" name="Nombre" value="{{ old('Nombre') }}" required placeholder="Nombre de la Tienda">
 
-            </div>
+             @if ($errors->has('Nombre'))
+                 <span class="invalid-feedback" role="alert">
+                   <strong>{{ $errors->first('Nombre') }}</strong>
+                 </span>
+             @endif
+ </div>
+
             <div class="form-group row">
-                            <label for="nombre" class="col-md-4 col-form-label text-md-left">{{ __('Direccion:') }}</label>
-
-                        </div>
+                 <label for="nombre" class="col-md-4 col-form-label text-md-left">{{ __('Dirección:') }}</label>
+             </div>
             <div class="text-center">
               <div class="form-group">
-                <input type="text" class="form-control"  placeholder="Calle">
-              </div>
-              <div class="form-group">
-                <input type="number" class="form-control"  placeholder="Número">
-              </div>
-              <div class="form-group">
-                <input type="text" class="form-control"  placeholder="Colonia">
-              </div>
-              <div class="form-group">
-                <input type="text" class="form-control"  placeholder="Ciudad">
-              </div>
-              <div class="form-group">
-                <input type="text" class="form-control"  placeholder="Estado">
-              </div>
-              <div class="form-group">
-                <input type="number" class="form-control"  placeholder="Codigo Postal">
-              </div>
-              <div class="form-group">
-                <input type="tel" class="form-control"  placeholder="Telefono">
-              </div>
-              <div class="form-group row">
+                 <input id="Calle" type="name" class="form-control{{ $errors->has('Calle') ? ' is-invalid' : '' }}" name="Calle" value="{{ old('Calle') }}" required placeholder="Calle">
+
+                           @if ($errors->has('Calle'))
+                               <span class="invalid-feedback" role="alert">
+                                 <strong>{{ $errors->first('Calle') }}</strong>
+                               </span>
+                           @endif
+               </div>
+               <div class="form-group">
+                  <input id="Numero" type="number" class="form-control{{ $errors->has('Numero') ? ' is-invalid' : '' }}" name="Numero" value="{{ old('Numero') }}" required placeholder="Numero">
+
+                            @if ($errors->has('Numero'))
+                                <span class="invalid-feedback" role="alert">
+                                  <strong>{{ $errors->first('Numero') }}</strong>
+                                </span>
+                            @endif
+                </div>
+                <div class="form-group">
+                   <input id="Colonia" type="name" class="form-control{{ $errors->has('Colonia') ? ' is-invalid' : '' }}" name="Colonia" value="{{ old('Colonia') }}" required placeholder="Colonia o Fraccionamiento">
+
+                             @if ($errors->has('Colonia'))
+                                 <span class="invalid-feedback" role="alert">
+                                   <strong>{{ $errors->first('Colonia') }}</strong>
+                                 </span>
+                             @endif
+                 </div>
+                 <div class="form-group">
+                    <input id="Ciudad" type="name" class="form-control{{ $errors->has('Ciudad') ? ' is-invalid' : '' }}" name="Ciudad" value="{{ old('Ciudad') }}" required placeholder="Ciudad o Municipio">
+
+                              @if ($errors->has('Ciudad'))
+                                  <span class="invalid-feedback" role="alert">
+                                    <strong>{{ $errors->first('Ciudad') }}</strong>
+                                  </span>
+                              @endif
+                  </div>
+                  <div class="form-group">
+                     <input id="Estado" type="name" class="form-control{{ $errors->has('Estado') ? ' is-invalid' : '' }}" name="Estado" value="{{ old('Estado') }}" required placeholder="Estado">
+
+                               @if ($errors->has('Estado'))
+                                   <span class="invalid-feedback" role="alert">
+                                     <strong>{{ $errors->first('Estado') }}</strong>
+                                   </span>
+                               @endif
+                   </div>
+                   <div class="form-group">
+                      <input id="CP" type="number" class="form-control{{ $errors->has('CP') ? ' is-invalid' : '' }}" name="CP" value="{{ old('CP') }}" required placeholder="Código Postal">
+
+                                @if ($errors->has('CP'))
+                                    <span class="invalid-feedback" role="alert">
+                                      <strong>{{ $errors->first('CP') }}</strong>
+                                    </span>
+                                @endif
+                    </div>
+                    <div class="form-group">
+                       <input id="Telefono" type="number" class="form-control{{ $errors->has('Telefono') ? ' is-invalid' : '' }}" name="Telefono" value="{{ old('Telefono') }}" required placeholder="Telefono">
+
+                                 @if ($errors->has('Telefono'))
+                                     <span class="invalid-feedback" role="alert">
+                                       <strong>{{ $errors->first('Telefono') }}</strong>
+                                     </span>
+                                 @endif
+                     </div>
+                          <div class="form-group row">
                               <label for="nombre" class="col-md-4 col-form-label text-md-left">{{ __('Usuario:') }}</label>
                           </div>
+
                           <div class="form-group">
                                            <input id="email" type="email" class="form-control{{ $errors->has('email') ? ' is-invalid' : '' }}" name="email" value="{{ old('email') }}" required placeholder="E-mail">
 

@@ -43,6 +43,9 @@ Route::get ('cart/show', [
   'uses' => 'CartController@Show'
 ]);
 
+Route::get('/Compras-Bebidas','PaginasController@ComprasBebidas');
+Route::get('/Compras-Alcohol','PaginasController@ComprasAlcohol');
+Route::get('/Compras-CarnesFrias','PaginasController@ComprasCarnesF');
 Route::get('/Compras-Cereales','PaginasController@ComprasCereales');
 Route::get('/Compras-Lacteos','PaginasController@ComprasLacteos');
 Route::get ('/Confirmacion', 'PaginasController@Confirmacion');

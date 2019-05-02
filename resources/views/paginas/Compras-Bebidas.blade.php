@@ -13,7 +13,7 @@
   		<div class="row">
   			<div class="col-md-12">
   				<div class="content">
-  					<h1 class="page-name">Compras Cereales</h1>
+  					<h1 class="page-name">Compras Bebidas</h1>
   					<ol class="breadcrumb">
   						<li><a href="/inicio">Inicio</a></li>
   						<li class="active">Compras</li>
