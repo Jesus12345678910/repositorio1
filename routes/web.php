@@ -56,6 +56,11 @@ Route::get('/contacto', 'PaginasController@contacto');
 Route::get('/bienvenida/{nombre}/{apellido?}', 'PaginasController@bienvenida');
 Route::get('/equipo', 'PaginasController@equipo');
 Route::get('/productos', 'productosController@index')->name('productos.index');
+Route::get('/usuarios', 'UsuariosController@index');
+Route::get('/usuarios/create', 'UsuariosController@create');
+Route::get('/usuarios/{usuario}', 'UsuariosController@show');
+Route::post('/usuarios', 'UsuariosController@store');
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');

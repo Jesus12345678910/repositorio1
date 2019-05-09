@@ -4,11 +4,10 @@
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!-->
 <html class="no-js"> <!--<![endif]-->
-<form action="/usuarios" method="POST" role="form">
+<head>
+  <form action="/usuarios" method="post" role="form"
 
   {{ csrf_field() }}
-<head>
-  
 
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <meta name="description" content="Abarrotes M">
@@ -55,7 +54,7 @@
           <h2 class="text-center">Registrate</h2>
           <form class="text-left clearfix" action="index.htm" >
 <div class="form-group">
-   <input id="nombre" type="name" class="form-control{{ $errors->has('nombre') ? ' is-invalid' : '' }}" name="nombre" value="{{ old('combre') }}" required placeholder="Nombre Completo">
+   <input name="nombre" type="name" class="form-control{{ $errors->has('nombre') ? ' is-invalid' : '' }}" name="nombre" value="{{ old('combre') }}" required placeholder="Nombre Completo">
 
              @if ($errors->has('nombre'))
                  <span class="invalid-feedback" role="alert">
@@ -69,7 +68,7 @@
              </div>
             <div class="text-center">
               <div class="form-group">
-                 <input id="calle" type="name" class="form-control{{ $errors->has('calle') ? ' is-invalid' : '' }}" name="calle" value="{{ old('calle') }}" required placeholder="Calle">
+                 <input name="calle" type="name" class="form-control{{ $errors->has('calle') ? ' is-invalid' : '' }}" name="calle" value="{{ old('calle') }}" required placeholder="Calle">
 
                            @if ($errors->has('calle'))
                                <span class="invalid-feedback" role="alert">
@@ -78,7 +77,7 @@
                            @endif
                </div>
                <div class="form-group">
-                  <input id="numero" type="number" class="form-control{{ $errors->has('numero') ? ' is-invalid' : '' }}" name="numero" value="{{ old('numero') }}" required placeholder="Numero">
+                  <input name="numero" type="number" class="form-control{{ $errors->has('numero') ? ' is-invalid' : '' }}" name="numero" value="{{ old('numero') }}" required placeholder="Numero">
 
                             @if ($errors->has('numero'))
                                 <span class="invalid-feedback" role="alert">
@@ -87,7 +86,7 @@
                             @endif
                 </div>
                 <div class="form-group">
-                   <input id="colonia" type="name" class="form-control{{ $errors->has('colonia') ? ' is-invalid' : '' }}" name="colonia" value="{{ old('colonia') }}" required placeholder="Colonia o Fraccionamiento">
+                   <input name="colonia" type="name" class="form-control{{ $errors->has('colonia') ? ' is-invalid' : '' }}" name="colonia" value="{{ old('colonia') }}" required placeholder="Colonia o Fraccionamiento">
 
                              @if ($errors->has('colonia'))
                                  <span class="invalid-feedback" role="alert">
@@ -96,7 +95,7 @@
                              @endif
                  </div>
                  <div class="form-group">
-                    <input id="ciudad" type="name" class="form-control{{ $errors->has('ciudad') ? ' is-invalid' : '' }}" name="ciudad" value="{{ old('ciudad') }}" required placeholder="Ciudad o Municipio">
+                    <input name="ciudad" type="name" class="form-control{{ $errors->has('ciudad') ? ' is-invalid' : '' }}" name="ciudad" value="{{ old('ciudad') }}" required placeholder="Ciudad o Municipio">
 
                               @if ($errors->has('ciudad'))
                                   <span class="invalid-feedback" role="alert">
@@ -105,7 +104,7 @@
                               @endif
                   </div>
                   <div class="form-group">
-                     <input id="estado" type="name" class="form-control{{ $errors->has('estado') ? ' is-invalid' : '' }}" name="estado" value="{{ old('estado') }}" required placeholder="Estado">
+                     <input name="estado" type="name" class="form-control{{ $errors->has('estado') ? ' is-invalid' : '' }}" name="estado" value="{{ old('estado') }}" required placeholder="Estado">
 
                                @if ($errors->has('estado'))
                                    <span class="invalid-feedback" role="alert">
@@ -114,7 +113,7 @@
                                @endif
                    </div>
                    <div class="form-group">
-                      <input id="codigo_postal" type="number" class="form-control{{ $errors->has('codigo_postal') ? ' is-invalid' : '' }}" name="codigo_postal" value="{{ old('codigo_postal') }}" required placeholder="Código Postal">
+                      <input name="codigo_postal" type="number" class="form-control{{ $errors->has('codigo_postal') ? ' is-invalid' : '' }}" name="codigo_postal" value="{{ old('codigo_postal') }}" required placeholder="Código Postal">
 
                                 @if ($errors->has('codigo_postal'))
                                     <span class="invalid-feedback" role="alert">
@@ -123,7 +122,7 @@
                                 @endif
                     </div>
                     <div class="form-group">
-                       <input id="telefono" type="number" class="form-control{{ $errors->has('telefono') ? ' is-invalid' : '' }}" name="telefono" value="{{ old('telefono') }}" required placeholder="Telefono">
+                       <input number="telefono" type="number" class="form-control{{ $errors->has('telefono') ? ' is-invalid' : '' }}" name="telefono" value="{{ old('telefono') }}" required placeholder="Telefono">
 
                                  @if ($errors->has('telefono'))
                                      <span class="invalid-feedback" role="alert">
@@ -136,7 +135,7 @@
                           </div>
 
                           <div class="form-group">
-                                           <input id="correo" type="correo" class="form-control{{ $errors->has('correo') ? ' is-invalid' : '' }}" name="correo" value="{{ old('correo') }}" required placeholder="E-mail">
+                                           <input name="correo" type="correo" class="form-control{{ $errors->has('correo') ? ' is-invalid' : '' }}" name="correo" value="{{ old('correo') }}" required placeholder="E-mail">
 
                                            @if ($errors->has('correo'))
                                                <span class="invalid-feedback" role="alert">
@@ -145,7 +144,7 @@
                                            @endif
                          </div>
                          <div class="form-group">
-                                            <input id="contraseña" type="password" class="form-control{{ $errors->has('contraseña') ? ' is-invalid' : '' }}" name="contraseña" required placeholder="Contraseña">
+                                            <input name="contraseña" type="password" class="form-control{{ $errors->has('contraseña') ? ' is-invalid' : '' }}" name="contraseña" required placeholder="Contraseña">
 
                                             @if ($errors->has('contraseña'))
                                                 <span class="invalid-feedback" role="alert">
@@ -154,8 +153,9 @@
                                            @endif
                             </div>
                             <div class="form-group">
-                          <input id="contraseña-confirm" type="password" class="form-control" name="contraseña_confirmation" required placeholder="Confirmar contraseña">
+                          <input name="contraseña-confirm" type="password" class="form-control" name="contraseña_confirmation" required placeholder="Confirmar contraseña">
                       </div>
+
 
               <button type="submit" class="btn btn-main text-center" >Inicia Sesión</button>
 
@@ -168,7 +168,8 @@
   </div>
 
 </section>
-</form>
+  </form>
+
     <!--
     Essential Scripts
     =====================================-->

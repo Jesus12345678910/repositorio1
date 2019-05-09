@@ -8,7 +8,7 @@
 
   {{ csrf_field() }}
 <head>
-  
+
 
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <meta name="description" content="Abarrotes M">
@@ -153,9 +153,7 @@
                                                 </span>
                                            @endif
                             </div>
-                            <div class="form-group">
-                          <input id="contraseña-confirm" type="password" class="form-control" name="contraseña_confirmation" required placeholder="Confirmar contraseña">
-                      </div>
+                            
 
               <button type="submit" class="btn btn-main text-center" >Inicia Sesión</button>
 
