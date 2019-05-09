@@ -29,6 +29,6 @@ class UsuariosController extends Controller
       //$usuario->save();
       Usuario::create($request->all());
 
-      return 'Usuario añadido';
+      return view ('comprass');
     }
 }

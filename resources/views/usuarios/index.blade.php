@@ -153,9 +153,9 @@
                                                 </span>
                                            @endif
                             </div>
-                            
 
-              <button type="submit" class="btn btn-main text-center" >Inicia Sesión</button>
+
+              <button type="submit" class="btn btn-main text-center" >Registrate</button>
 
             </div>
           </form>
