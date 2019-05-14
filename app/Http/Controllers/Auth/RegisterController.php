@@ -28,7 +28,7 @@ class RegisterController extends Controller
      *
      * @var string
      */
-    protected $redirectTo = '/home';
+    protected $redirectTo = '/inicio';
 
     /**
      * Create a new controller instance.
@@ -50,8 +50,15 @@ class RegisterController extends Controller
     {
         return Validator::make($data, [
             'name' => ['required', 'string', 'max:255'],
+            'calle' => ['required','string','max:255'],
+            'numero' =>['required','string','max:255'],
+            'colonia' =>['required','string','max:255'],
+            'ciudad' =>['required','string','max:255'],
+            'estado' =>['required','string','max:255'],
+            'codigo_postal' =>['required','string','max:255'],
+            'telefono' =>['required','string','max:255'],
             'email' => ['required', 'string', 'email', 'max:255', 'unique:users'],
-            'password' => ['required', 'string', 'min:6', 'confirmed'],
+            'password' => ['required', 'string', 'min:4', 'confirmed'],
         ]);
     }
 
@@ -65,8 +72,17 @@ class RegisterController extends Controller
     {
         return User::create([
             'name' => $data['name'],
+            'calle' => $data['calle'],
+            'numero' => $data['numero'],
+            'colonia' => $data['colonia'],
+            'ciudad' => $data['ciudad'],
+            'estado' => $data['estado'],
+            'codigo_postal' => $data['codigo_postal'],
+            'telefono' => $data['telefono'],
             'email' => $data['email'],
             'password' => Hash::make($data['password']),
         ]);
+        return redirect('/comprass')->with('notification','Has creado un usuario nuevo');
     }
+
 }

@@ -61,7 +61,7 @@ Route::get('/usuarios/create', 'UsuariosController@create');
 Route::get('/usuarios/{usuario}', 'UsuariosController@show');
 Route::post('/usuarios', 'UsuariosController@store');
 
-Auth::routes();
+Auth::routes(['verify' => true]);
 
 Route::get('/home', 'HomeController@index')->name('home');
 ?>

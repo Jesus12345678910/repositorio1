@@ -33,7 +33,7 @@
 
 						 <li role="separator" class="divider"></li>
 						 <li><a href="/registro">Registro de tiendas</a></li>
-						 <li><a href="/usuarios">Registro Usuario</a></li>
+						 <li><a href="/register">Registro Usuario</a></li>
 
 									 </ul>
 								 </div>
