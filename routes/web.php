@@ -42,6 +42,9 @@ Route::get ('cart/show', [
   'as' => 'cart/show',
   'uses' => 'CartController@Show'
 ]);
+Route::get('profile', function () {
+    // Only verified users may enter...
+})->middleware('verified');
 
 Route::get('/registroUsuario','PaginasController@RegistroUsuario');
 Route::get('/Compras-Bebidas','PaginasController@ComprasBebidas');
@@ -60,6 +63,7 @@ Route::get('/usuarios', 'UsuariosController@index');
 Route::get('/usuarios/create', 'UsuariosController@create');
 Route::get('/usuarios/{usuario}', 'UsuariosController@show');
 Route::post('/usuarios', 'UsuariosController@store');
+Route::get('/register/verify/{code}', 'RegisterController@verify');
 
 Auth::routes(['verify' => true]);
 

@@ -21,9 +21,11 @@ class CreateUsersTable extends Migration
             $table->string('colonia');
             $table->string('ciudad');
             $table->string('estado');
-            $table->unsignedInteger('codigo_postal');
-            $table->unsignedInteger('telefono');
+            $table->string('codigo_postal');
+            $table->string('telefono');
             $table->string('email')->unique();
+            $table->boolean('confirmed')->default(0);
+            $table->string('confirmation_code')->nullable();
             $table->timestamp('email_verified_at')->nullable();
             $table->string('password');
 

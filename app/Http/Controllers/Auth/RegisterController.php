@@ -7,7 +7,8 @@ use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Foundation\Auth\RegistersUsers;
-
+use Illuminate\Support\Facades\Auth;
+use Mail;
 class RegisterController extends Controller
 {
     /*
@@ -70,7 +71,9 @@ class RegisterController extends Controller
      */
     protected function create(array $data)
     {
-        return User::create([
+      $data['confirmation_code'] = str_random(25);
+
+        $user = User::create([
             'name' => $data['name'],
             'calle' => $data['calle'],
             'numero' => $data['numero'],
@@ -81,8 +84,29 @@ class RegisterController extends Controller
             'telefono' => $data['telefono'],
             'email' => $data['email'],
             'password' => Hash::make($data['password']),
+            'confirmation_code' => $data['confirmation_code']
         ]);
-        return redirect('/comprass')->with('notification','Has creado un usuario nuevo');
+
+        //mandar mensaje de confirmacion
+        Mail::send('emails.confirmation_code', $data, function($message) use ($data) {
+        $message->to($data['email'], $data['name'])->subject('Por favor confirma tu correo');
+        });
+
+        return $user;
+        return redirect('/inicio')->with('notification','Has creado un usuario nuevo');
     }
 
+    public function verify($code)
+    {
+    $user = User::where('confirmation_code', $code)->first();
+
+    if (! $user)
+        return redirect('/');
+
+    $user->confirmed = true;
+    $user->confirmation_code = null;
+    $user->save();
+
+    return redirect('inicio')->with('notification', 'Has confirmado correctamente tu correo!');
+  }
 }
