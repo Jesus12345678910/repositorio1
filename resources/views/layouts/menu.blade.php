@@ -32,7 +32,7 @@
 									 <ul>
 
 						 <li role="separator" class="divider"></li>
-						 <li><a href="/registro">Registro de tiendas</a></li>
+						 <li><a href="/registroUsuario">Registro de tiendas</a></li>
 						 <li><a href="/register">Registro Usuario</a></li>
 
 									 </ul>
@@ -41,7 +41,7 @@
 
 					 <!-- Login -->
 					<li class="dropdown ">
-						<a href="/login">Iniciar Sesión</a>
+						<a href="/tiendas">Consulta</a>
 					</li><!-- / Login -->
 					 <!-- compras
 					<li class="dropdown ">

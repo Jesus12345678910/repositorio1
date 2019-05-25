@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateTiendasTable extends Migration
+class RenameUsuariosTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,7 +13,7 @@ class CreateTiendasTable extends Migration
      */
     public function up()
     {
-      Schema::dropIfExists('tiendas');
+        Schema::rename('usuarios', 'tiendas');
     }
 
     /**
@@ -23,6 +23,6 @@ class CreateTiendasTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('tiendas');
+        Schema::rename('tiendas', 'usuarios');
     }
 }

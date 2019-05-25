@@ -30,3 +30,16 @@ $factory->define(App\User::class, function (Faker $faker) {
         'remember_token' => Str::random(10),
     ];
 });
+
+$factory->define(App\Tienda::class, function (Faker $faker) {
+    return [
+        'nombre' => $faker->company                 ,
+        'calle' => $faker->streetName,
+        'numero' => $faker->numberBetween($min = 500, $max = 9000),
+        'colonia' => $faker->streetSuffix ,
+        'ciudad' => $faker->city,
+        'estado' => $faker->state,
+        'codigo_postal' => $faker->postcode,
+        'telefono' => $faker->phoneNumber,
+    ];
+});

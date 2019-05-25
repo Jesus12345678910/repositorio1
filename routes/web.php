@@ -59,10 +59,10 @@ Route::get('/contacto', 'PaginasController@contacto');
 Route::get('/bienvenida/{nombre}/{apellido?}', 'PaginasController@bienvenida');
 Route::get('/equipo', 'PaginasController@equipo');
 Route::get('/productos', 'productosController@index')->name('productos.index');
-Route::get('/usuarios', 'UsuariosController@index');
-Route::get('/usuarios/create', 'UsuariosController@create');
-Route::get('/usuarios/{usuario}', 'UsuariosController@show');
-Route::post('/usuarios', 'UsuariosController@store');
+Route::get('/tiendas', 'TiendasController@index');
+Route::get('/tiendas/create', 'TiendasController@create');
+Route::get('/tiendas/{tienda}', 'TiendasController@show');
+Route::post('/tiendas', 'TiendasController@store');
 Route::get('/register/verify/{code}', 'RegisterController@verify');
 
 Auth::routes(['verify' => true]);

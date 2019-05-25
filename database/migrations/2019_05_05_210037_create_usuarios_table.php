@@ -13,6 +13,7 @@ class CreateUsuariosTable extends Migration
      */
     public function up()
     {
+
         Schema::create('usuarios', function (Blueprint $table) {
             $table->increments('id');
             $table->string('nombre');
@@ -21,10 +22,8 @@ class CreateUsuariosTable extends Migration
             $table->string('colonia');
             $table->string('ciudad');
             $table->string('estado');
-            $table->unsignedInteger('codigo_postal');
-            $table->unsignedInteger('telefono');
-            $table->string('correo');
-            $table->string('contraseña');
+            $table->string('codigo_postal');
+            $table->string('telefono');
             $table->timestamps();
         });
     }

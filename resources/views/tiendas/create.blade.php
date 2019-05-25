@@ -3,6 +3,13 @@
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!-->
+@if(Session::has('message'))
+<div class="alert alert-success alert-dismissable" role="alert">
+  <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+  {{Session::get('message')}}
+</div>
+@endif
+
 <html class="no-js"> <!--<![endif]-->
 <head>
   <form action="/usuarios" method="post" role="form"
@@ -54,7 +61,7 @@
           <h2 class="text-center">Registrate</h2>
           <form class="text-left clearfix" action="index.htm" >
 <div class="form-group">
-   <input name="nombre" type="name" class="form-control{{ $errors->has('nombre') ? ' is-invalid' : '' }}" name="nombre" value="{{ old('combre') }}" required placeholder="Nombre Completo">
+   <input name="nombre" type="name" class="form-control{{ $errors->has('nombre') ? ' is-invalid' : '' }}" name="nombre" value="{{ old('combre') }}" required placeholder="Nombre Comple">
 
              @if ($errors->has('nombre'))
                  <span class="invalid-feedback" role="alert">

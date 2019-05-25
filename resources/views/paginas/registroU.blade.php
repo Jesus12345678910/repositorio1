@@ -1,14 +1,26 @@
+@extends('layouts.app')
+
+
 <!DOCTYPE html>
+@section('content')
+
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!-->
 <html class="no-js"> <!--<![endif]-->
-<form action="/usuarios" method="POST" role="form">
+<form action="/tiendas" method="POST" role="form">
 
   {{ csrf_field() }}
+  @if(Session::has('message'))
+  <div class="alert alert-success alert-dismissable" role="alert">
+    <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+    {{Session::get('message')}}
+  </div>
+  @endif
+
 <head>
-  
+
 
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <meta name="description" content="Abarrotes M">
@@ -52,7 +64,7 @@
           <a class="Abarrotes MX" href="/inicio">
             <img src="images/logos.png" alt="">
           </a>
-          <h2 class="text-center">Registrate</h2>
+          <h2 class="text-center">Registra tu tienda</h2>
           <form class="text-left clearfix" action="index.htm" >
 <div class="form-group">
    <input id="nombre" type="name" class="form-control{{ $errors->has('nombre') ? ' is-invalid' : '' }}" name="nombre" value="{{ old('combre') }}" required placeholder="Nombre Completo">
@@ -131,33 +143,8 @@
                                      </span>
                                  @endif
                      </div>
-                          <div class="form-group row">
-                              <label for="nombre" class="col-md-4 col-form-label text-md-left">{{ __('Usuario:') }}</label>
-                          </div>
 
-                          <div class="form-group">
-                                           <input id="correo" type="correo" class="form-control{{ $errors->has('correo') ? ' is-invalid' : '' }}" name="correo" value="{{ old('correo') }}" required placeholder="E-mail">
-
-                                           @if ($errors->has('correo'))
-                                               <span class="invalid-feedback" role="alert">
-                                                   <strong>{{ $errors->first('correo') }}</strong>
-                                               </span>
-                                           @endif
-                         </div>
-                         <div class="form-group">
-                                            <input id="contraseña" type="password" class="form-control{{ $errors->has('contraseña') ? ' is-invalid' : '' }}" name="contraseña" required placeholder="Contraseña">
-
-                                            @if ($errors->has('contraseña'))
-                                                <span class="invalid-feedback" role="alert">
-                                                      <strong>{{ $errors->first('contraseña') }}</strong>
-                                                </span>
-                                           @endif
-                            </div>
-                            <div class="form-group">
-                          <input id="contraseña-confirm" type="password" class="form-control" name="contraseña_confirmation" required placeholder="Confirmar contraseña">
-                      </div>
-
-              <button type="submit" class="btn btn-main text-center" >Inicia Sesión</button>
+              <button type="submit" class="btn btn-main text-center" >Registra tu tienda</button>
 
             </div>
           </form>
@@ -216,3 +203,4 @@
 
   </body>
   </html>
+@endsection

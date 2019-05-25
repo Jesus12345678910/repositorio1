@@ -155,7 +155,7 @@
               <button type="submit" class="btn btn-main text-center" >Inicia Sesión</button>
             </div>
           </form>
-          
+
         </div>
       </div>
     </div>
