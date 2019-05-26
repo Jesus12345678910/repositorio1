@@ -6,6 +6,18 @@ use Illuminate\Http\Request;
 
 class PaginasController extends Controller
 {
+  public function __construct(){
+    $this->middleware('Check.logedin');
+  }
+  public function RegistroUsuario()
+  {
+    return view('RegistroU');
+  }
+  public function contacto()
+  {
+    return view('paginas.contacto');
+  }
+
     public function info()
     {
       return view('paginas.informacion');
@@ -14,10 +26,17 @@ class PaginasController extends Controller
     {
       return view('MetododePago');
     }
-
+    public function Compras()
+    {
+      return view('comprass');
+    }
     public function Confirmacion()
     {
       return view('Confirmacion');
+    }
+    public function ComprasFV()
+    {
+      return view('ComprasFrutasyVerdurass');
     }
     public function ComprasLacteos()
     {
@@ -39,14 +58,7 @@ class PaginasController extends Controller
     {
       return view('ComprasAlcohol');
     }
-    public function RegistroUsuario()
-    {
-      return view('RegistroU');
-    }
-    public function contacto()
-    {
-      return view('paginas.contacto');
-    }
+
 
     public function bienvenida($nombre, $apellido= null)
     {
@@ -60,6 +72,8 @@ class PaginasController extends Controller
     {
       return view('paginas.equipo');
     }
+
+
 
 }
 ?>

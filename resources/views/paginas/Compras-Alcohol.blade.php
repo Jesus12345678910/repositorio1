@@ -32,11 +32,11 @@
           	<div class="product-item">
   					<div class="product-thumb">
   						<span class="bage">Wacha este   O-FER-TON!</span>
-  						<img class="img-responsive" src="images/shop/products/Zucaritas.jpg" alt="product-img" />
+  						<img class="img-responsive" src="images/shop/products/cerveza corona.jpg" alt="product-img" />
   						<div class="preview-meta">
   							<ul>
   								<li>
-  									<span  data-toggle="modal" data-target="#product-modal-Zucaritas">
+  									<span  data-toggle="modal" data-target="#product-modal-CervezaCorona">
   										<i class="tf-ion-ios-search-strong"></i>
   									</span>
   								</li>
@@ -48,9 +48,9 @@
   					</div>
 
             <div class="product-content">
-  						<h4><a href="product-single.html">Zucaritas</a></h4>
-              <p class="price">300 gr.</p>
-              <p class="price">$30 c/u</p>
+  						<h4><a href="product-single.html">Cerveza Corona</a></h4>
+              <p class="price">500 ml.</p>
+              <p class="price">$15 c/u</p>
   					</div>
   				</div>
   			</div>
@@ -58,11 +58,11 @@
   			<div class="col-md-4">
   				<div class="product-item">
   					<div class="product-thumb">
-  						<img class="img-responsive" src="images/shop/products/Cornpops.jpg" alt="product-img" />
+  						<img class="img-responsive" src="images/shop/products/miller.jpg" alt="product-img" />
   						<div class="preview-meta">
   							<ul>
   								<li>
-  									<span  data-toggle="modal" data-target="#product-modal-Cornpops">
+  									<span  data-toggle="modal" data-target="#product-modal-CaguamaMiller">
   										<i class="tf-ion-ios-search-strong"></i>
   									</span>
   								</li>
@@ -73,34 +73,9 @@
                         	</div>
   					</div>
   					<div class="product-content">
-              <h4><a href="product-single.html">Cornpops</a></h4>
-              <p class="price">210 gr.</p>
-              <p class="price">$30 c/u</p>
-  					</div>
-  				</div>
-  			</div>
-
-  			<div class="col-md-4">
-  				<div class="product-item">
-  					<div class="product-thumb">
-  						<img class="img-responsive" src="images/shop/products/Frootloops.jpg" alt="product-img" />
-  						<div class="preview-meta">
-  							<ul>
-  								<li>
-  									<span  data-toggle="modal" data-target="#product-modal-FrootLoops">
-  										<i class="tf-ion-ios-search-strong"></i>
-  									</span>
-  								</li>
-  								<li>
-  									<a href=""><i class="tf-ion-android-cart"></i></a>
-  								</li>
-  							</ul>
-                        	</div>
-  					</div>
-  					<div class="product-content">
-              <h4><a href="product-single.html">FrootLoops</a></h4>
-              <p class="price">300 gr.</p>
-              <p class="price">$30 c/u</p>
+              <h4><a href="product-single.html">Caguama Miller</a></h4>
+              <p class="price">1 L.</p>
+              <p class="price">$50 c/u</p>
   					</div>
   				</div>
   			</div>
@@ -108,11 +83,11 @@
         <div class="col-md-4">
   				<div class="product-item">
   					<div class="product-thumb">
-  						<img class="img-responsive" src="images/shop/products/Chocokrispis.jpg" alt="product-img" />
+  						<img class="img-responsive" src="images/shop/products/RedLabel.jpg" alt="product-img" />
   						<div class="preview-meta">
   							<ul>
   								<li>
-  									<span  data-toggle="modal" data-target="#product-modal-Chocokrispis">
+  									<span  data-toggle="modal" data-target="#product-modal-RedLabel">
   										<i class="tf-ion-ios-search-strong"></i>
   									</span>
   								</li>
@@ -123,9 +98,9 @@
                         	</div>
   					</div>
   					<div class="product-content">
-  						<h4><a href="product-single.html">Chocokrispis</a></h4>
-              <p class="price">360 gr.</p>
-              <p class="price">$30 c/u</p>
+              <h4><a href="product-single.html">Whiskey RedLabel </a></h4>
+              <p class="price">700 ml.</p>
+              <p class="price">$300 c/u</p>
   					</div>
   				</div>
   			</div>
@@ -133,11 +108,11 @@
         <div class="col-md-4">
           <div class="product-item">
             <div class="product-thumb">
-              <img class="img-responsive" src="images/shop/products/Nesquik.jpg" alt="product-img" />
+              <img class="img-responsive" src="images/shop/products/Herradura.jpg" alt="product-img" />
               <div class="preview-meta">
                 <ul>
                   <li>
-                    <span  data-toggle="modal" data-target="#product-modal-Nesquik">
+                    <span  data-toggle="modal" data-target="#product-modal-Herradura">
                       <i class="tf-ion-ios-search-strong"></i>
                     </span>
                   </li>
@@ -148,9 +123,34 @@
                           </div>
             </div>
             <div class="product-content">
-              <h4><a href="product-single.html">Nesquik</a></h4>
-              <p class="price">300 gr.</p>
-              <p class="price">$30 c/u</p>
+              <h4><a href="product-single.html">Tequila Herradura Plata</a></h4>
+              <p class="price">700 ml.</p>
+              <p class="price">$450 c/u</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="product-item">
+            <div class="product-thumb">
+              <img class="img-responsive" src="images/shop/products/centenario.jpg" alt="product-img" />
+              <div class="preview-meta">
+                <ul>
+                  <li>
+                    <span  data-toggle="modal" data-target="#product-modal-centenario">
+                      <i class="tf-ion-ios-search-strong"></i>
+                    </span>
+                  </li>
+                  <li>
+                    <a href=""><i class="tf-ion-android-cart"></i></a>
+                  </li>
+                </ul>
+                          </div>
+            </div>
+            <div class="product-content">
+              <h4><a href="product-single.html">Tequila Centenario Reposado</a></h4>
+              <p class="price">900 ml.</p>
+              <p class="price">$300 c/u</p>
             </div>
           </div>
         </div>
@@ -158,11 +158,11 @@
       	<div class="col-md-4">
   				<div class="product-item">
   					<div class="product-thumb">
-  						<img class="img-responsive" src="images/shop/products/Cherrios.jpg" alt="product-img" />
+  						<img class="img-responsive" src="images/shop/products/victoria.jpg" alt="product-img" />
   						<div class="preview-meta">
   							<ul>
   								<li>
-  									<span  data-toggle="modal" data-target="#product-modal-Cherrios">
+  									<span  data-toggle="modal" data-target="#product-modal-victoria">
   										<i class="tf-ion-ios-search-strong"></i>
   									</span>
   								</li>
@@ -174,9 +174,9 @@
 
   					</div>
   					<div class="product-content">
-  						<h4><a href="product-single.html">Cherrios</a></h4>
-              <p class="product-price">300 gr.</p>
-  						<p class="price">$30 c/u</p>
+  						<h4><a href="product-single.html">Caguama Victoria</a></h4>
+              <p class="product-price">1 L.</p>
+  						<p class="price">$55 c/u</p>
   					</div>
   				</div>
   			</div>
@@ -186,11 +186,11 @@
   			<div class="col-md-4">
   				<div class="product-item">
   					<div class="product-thumb">
-  						<img class="img-responsive" src="images/shop/products/SpecialK.jpg" alt="product-img" />
+  						<img class="img-responsive" src="images/shop/products/xx.jpg" alt="product-img" />
   						<div class="preview-meta">
   							<ul>
   								<li>
-  									<span  data-toggle="modal" data-target="#product-modal-SpecialK">
+  									<span  data-toggle="modal" data-target="#product-modal-xx">
   										<i class="tf-ion-ios-search-strong"></i>
   									</span>
   								</li>
@@ -201,9 +201,9 @@
             </div>
   					</div>
   					<div class="product-content">
-  						<h4><a href="product-single.html">Special K </a></h4>
-              <p class="price">210 gr.</p>
-            	<p class="price">$35 c/u</p>
+  						<h4><a href="product-single.html">Cerveza XX </a></h4>
+              <p class="price">455 ml.</p>
+            	<p class="price">$15 c/u</p>
   					</div>
   				</div>
   			</div>
@@ -211,11 +211,11 @@
         <div class="col-md-4">
   				<div class="product-item">
   					<div class="product-thumb">
-  						<img class="img-responsive" src="images/shop/products/CornFlakes.jpg" alt="product-img" />
+  						<img class="img-responsive" src="images/shop/products/12Indio.jpg" alt="product-img" />
   						<div class="preview-meta">
   							<ul>
   								<li>
-  									<span  data-toggle="modal" data-target="#product-modal-CornFlakes">
+  									<span  data-toggle="modal" data-target="#product-modal-12Indio">
   										<i class="tf-ion-ios-search-strong"></i>
   									</span>
   								</li>
@@ -226,9 +226,9 @@
                         	</div>
   					</div>
   					<div class="product-content">
-              <h4><a href="product-single.html">Corn Flakes</a></h4>
-              <p class="price">510 gr.</p>
-              <p class="price">$35 c/u</p>
+              <h4><a href="product-single.html"> 12 Pack de Cerveza Indio </a></h4>
+              <p class="price">455 ml.</p>
+              <p class="price">$155 c/u</p>
   					</div>
   				</div>
   			</div>
@@ -237,11 +237,11 @@
   				<div class="product-item">
   					<div class="product-thumb">
   						<span class="bage">Wacha este O-FER-TON</span>
-  						<img class="img-responsive" src="images/shop/products/AllBran.jpg" alt="product-img" />
+  						<img class="img-responsive" src="images/shop/products/TecateLight.jpg" alt="product-img" />
   						<div class="preview-meta">
   							<ul>
   								<li>
-  									<span  data-toggle="modal" data-target="#product-modal-AllBran">
+  									<span  data-toggle="modal" data-target="#product-modal-TecateLight">
   										<i class="tf-ion-ios-search-strong"></i>
   									</span>
   								</li>
@@ -252,11 +252,13 @@
                         	</div>
   					</div>
   					<div class="product-content">
-              <h4><a href="product-single.html">All Bran</a></h4>
-              <p class="price">300 gr.</p>
-              <p class="price">$30 c/u</p>
+              <h4><a href="product-single.html">Tecate Light </a></h4>
+              <p class="price">355 ml.</p>
+              <p class="price">$12 c/u</p>
   					</div>
   				</div>
+
+
 
   		<!-- Modal -->
 
@@ -267,8 +269,8 @@
 
 
 
-<!-- Modal Zucaritas -->
-<div class="modal product-modal fade" id="product-modal-Zucaritas">
+<!-- Modal Cerveza Corona -->
+<div class="modal product-modal fade" id="product-modal-CervezaCorona">
   <button type="button" class="close" data-dismiss="modal" aria-label="Close">
     <i class="tf-ion-close"></i>
   </button>
@@ -278,17 +280,17 @@
             <div class="row">
               <div class="col-md-8 col-sm-6 col-xs-12">
                 <div class="modal-image">
-                  <img class="img-responsive" src="images/shop/products/Zucaritas.jpg" alt="product-img" />
+                  <img class="img-responsive" src="images/shop/products/cerveza corona.jpg" alt="product-img" />
                 </div>
               </div>
               <div class="col-md-4 col-sm-6 col-xs-12">
 
                 <div class="product-short-details">
-                  <h4><a href="product-single.html">Zucaritas</a></h4>
-                  <p class="price">300 gr.</p>
-                  <p class="price">$30 c/u</p>
+                  <h4><a href="product-single.html">Cerveza Corona</a></h4>
+                  <p class="price">450 ml.</p>
+                  <p class="price">$15 c/u</p>
                   <p class="product-short-description">
-                    Zucaritas de 300 gr. Para crecer sano y fuerte.
+                    Cerveza corona fria.
                   </p>
                   <a href="cart.html" class="btn btn-main">Añadir a carrito</a>
                 </div>
@@ -299,8 +301,8 @@
     </div>
 </div>
 
-<!-- Modal Cornpops -->
-<div class="modal product-modal fade" id="product-modal-Cornpops">
+<!-- Modal Herradura -->
+<div class="modal product-modal fade" id="product-modal-Herradura">
   <button type="button" class="close" data-dismiss="modal" aria-label="Close">
     <i class="tf-ion-close"></i>
   </button>
@@ -310,17 +312,17 @@
             <div class="row">
               <div class="col-md-8 col-sm-6 col-xs-12">
                 <div class="modal-image">
-                  <img class="img-responsive" src="images/shop/products/Cornpops.jpg" alt="product-img" />
+                  <img class="img-responsive" src="images/shop/products/Herradura.jpg" alt="product-img" />
                 </div>
               </div>
               <div class="col-md-4 col-sm-6 col-xs-12">
 
                 <div class="product-short-details">
-                  <h4><a href="product-single.html">Cornpops</a></h4>
-                  <p class="price">210 gr.</p>
-                  <p class="price">$30 c/u</p>
+                  <h4><a href="product-single.html">Tequila Herradura plata</a></h4>
+                  <p class="price">700 ml.</p>
+                  <p class="price">$450 c/u</p>
                   <p class="product-short-description">
-                    Para crecer fuerte.
+                    Tequila Herradura Plata de 700 ml.
                   </p>
                   <a href="cart.html" class="btn btn-main">Añadir a carrito</a>
                 </div>
@@ -331,8 +333,8 @@
     </div>
 </div>
 
-<!-- Modal FrootLoops -->
-<div class="modal product-modal fade" id="product-modal-FrootLoops">
+<!-- Modal Miller -->
+<div class="modal product-modal fade" id="product-modal-CaguamaMiller">
   <button type="button" class="close" data-dismiss="modal" aria-label="Close">
     <i class="tf-ion-close"></i>
   </button>
@@ -342,17 +344,17 @@
             <div class="row">
               <div class="col-md-8 col-sm-6 col-xs-12">
                 <div class="modal-image">
-                  <img class="img-responsive" src="images/shop/products/Frootloops.jpg" alt="product-img" />
+                  <img class="img-responsive" src="images/shop/products/miller.jpg" alt="product-img" />
                 </div>
               </div>
               <div class="col-md-4 col-sm-6 col-xs-12">
 
                 <div class="product-short-details">
-                  <h4><a href="product-single.html">FrootLoops</a></h4>
-                  <p class="price">300 gr.</p>
-                  <p class="price">$30 c/u</p>
+                  <h4><a href="product-single.html">Caguama Miller</a></h4>
+                  <p class="price">1 L.</p>
+                  <p class="price">$50 c/u</p>
                   <p class="product-short-description">
-                   Cereal FrootLoops de 300 gr.
+                  Caguama Miller de un litro helada.
                   </p>
                   <a href="cart.html" class="btn btn-main">Añadir a carrito</a>
                 </div>
@@ -363,8 +365,8 @@
     </div>
 </div>
 
-<!-- Modal Chocokrispis -->
-<div class="modal product-modal fade" id="product-modal-Chocokrispis">
+<!-- Modal RedLabel -->
+<div class="modal product-modal fade" id="product-modal-RedLabel">
   <button type="button" class="close" data-dismiss="modal" aria-label="Close">
     <i class="tf-ion-close"></i>
   </button>
@@ -374,17 +376,17 @@
             <div class="row">
               <div class="col-md-8 col-sm-6 col-xs-12">
                 <div class="modal-image">
-                  <img class="img-responsive" src="images/shop/products/Chocokrispis.jpg" alt="product-img" />
+                  <img class="img-responsive" src="images/shop/products/RedLabel.jpg" alt="product-img" />
                 </div>
               </div>
               <div class="col-md-4 col-sm-6 col-xs-12">
 
                 <div class="product-short-details">
-                  <h4><a href="product-single.html">Chocokrispis</a></h4>
-                  <p class="price">360 gr.</p>
-                  <p class="price">$30 c/u</p>
+                  <h4><a href="product-single.html">Whiskey RedLabel </a></h4>
+                  <p class="price">700 ml.</p>
+                  <p class="price">$300 c/u</p>
                   <p class="product-short-description">
-                    Cereal Chocokrispis para crecer alto y fuerte.
+                    Whiskey Red Label etiqueta roja de 700 ml.
                   </p>
                   <a href="cart.html" class="btn btn-main">Añadir a carrito</a>
                 </div>
@@ -395,8 +397,8 @@
     </div>
 </div>
 
-<!-- Modal Leche Nesquik -->
-<div class="modal product-modal fade" id="product-modal-Nesquik">
+<!-- Modal Leche centenario -->
+<div class="modal product-modal fade" id="product-modal-centenario">
   <button type="button" class="close" data-dismiss="modal" aria-label="Close">
     <i class="tf-ion-close"></i>
   </button>
@@ -406,17 +408,17 @@
             <div class="row">
               <div class="col-md-8 col-sm-6 col-xs-12">
                 <div class="modal-image">
-                  <img class="img-responsive" src="images/shop/products/Nesquik.jpg" alt="product-img" />
+                  <img class="img-responsive" src="images/shop/products/centenario.jpg" alt="product-img" />
                 </div>
               </div>
               <div class="col-md-4 col-sm-6 col-xs-12">
 
                 <div class="product-short-details">
-                  <h4><a href="product-single.html">Nesquik</a></h4>
-                  <p class="price">300 gr.</p>
-                  <p class="price">$30 c/u</p>
+                  <h4><a href="product-single.html">Tequila Centenario Reposado</a></h4>
+                  <p class="price">900 ml.</p>
+                  <p class="price">$300 c/u</p>
                   <p class="product-short-description">
-                    Rico Nesquik para las bendis.
+                    Tequila centernario reposado.
                   </p>
                   <a href="cart.html" class="btn btn-main">Añadir a carrito</a>
                 </div>
@@ -427,8 +429,8 @@
     </div>
 </div>
 
-<!-- Modal Cherrios -->
-<div class="modal product-modal fade" id="product-modal-Cherrios">
+<!-- Modal victoria -->
+<div class="modal product-modal fade" id="product-modal-victoria">
   <button type="button" class="close" data-dismiss="modal" aria-label="Close">
     <i class="tf-ion-close"></i>
   </button>
@@ -438,17 +440,17 @@
             <div class="row">
               <div class="col-md-8 col-sm-6 col-xs-12">
                 <div class="modal-image">
-                  <img class="img-responsive" src="images/shop/products/Cherrios.jpg" alt="product-img" />
+                  <img class="img-responsive" src="images/shop/products/victoria.jpg" alt="product-img" />
                 </div>
               </div>
               <div class="col-md-4 col-sm-6 col-xs-12">
 
                 <div class="product-short-details">
-                  <h4><a href="product-single.html">Cherrios Manzana Canela</a></h4>
-                  <p class="price">300 gr.</p>
-                  <p class="price">$30 c/u</p>
+                  <h4><a href="product-single.html">Caguama Victoria</a></h4>
+                  <p class="product-price">1 L.</p>
+      						<p class="price">$55 c/u</p>
                   <p class="product-short-description">
-                    Cherrios Manzana Canela de 300 gr.
+                    Caguama Victoria obscura de 1 litro.
                   </p>
                   <a href="cart.html" class="btn btn-main">Añadir a carrito</a>
                 </div>
@@ -459,8 +461,8 @@
     </div>
 </div>
 
-<!-- Modal SpecialK -->
-<div class="modal product-modal fade" id="product-modal-SpecialK">
+<!-- Modal xx -->
+<div class="modal product-modal fade" id="product-modal-xx">
   <button type="button" class="close" data-dismiss="modal" aria-label="Close">
     <i class="tf-ion-close"></i>
   </button>
@@ -470,17 +472,17 @@
             <div class="row">
               <div class="col-md-8 col-sm-6 col-xs-12">
                 <div class="modal-image">
-                  <img class="img-responsive" src="images/shop/products/SpecialK.jpg" alt="product-img" />
+                  <img class="img-responsive" src="images/shop/products/xx.jpg" alt="product-img" />
                 </div>
               </div>
               <div class="col-md-4 col-sm-6 col-xs-12">
 
                 <div class="product-short-details">
-                  <h4><a href="product-single.html">Special K </a></h4>
-                  <p class="price">210 gr.</p>
-                  <p class="price">$35 c/u</p>
+                  <h4><a href="product-single.html">Cerveza XX </a></h4>
+                  <p class="price">455 ml.</p>
+                  <p class="price">$15 c/u</p>
                   <p class="product-short-description">
-                    Cerel SpecialK original de 210 gr.
+                    Cerveza xx lager de 455 ml.
                   </p>
                   <a href="cart.html" class="btn btn-main">Añadir a carrito</a>
                 </div>
@@ -491,8 +493,8 @@
     </div>
 </div>
 
-<!-- Modal CornFlakes -->
-<div class="modal product-modal fade" id="product-modal-CornFlakes">
+<!-- Modal 12Indio -->
+<div class="modal product-modal fade" id="product-modal-12Indio">
   <button type="button" class="close" data-dismiss="modal" aria-label="Close">
     <i class="tf-ion-close"></i>
   </button>
@@ -502,17 +504,17 @@
             <div class="row">
               <div class="col-md-8 col-sm-6 col-xs-12">
                 <div class="modal-image">
-                  <img class="img-responsive" src="images/shop/products/CornFlakes.jpg" alt="product-img" />
+                  <img class="img-responsive" src="images/shop/products/12Indio.jpg" alt="product-img" />
                 </div>
               </div>
               <div class="col-md-4 col-sm-6 col-xs-12">
 
                 <div class="product-short-details">
-                  <h4><a href="product-single.html">Corn Flakes </a></h4>
-                  <p class="price">510 gr.</p>
-                	<p class="price">$45 c/u</p>
+                  <h4><a href="product-single.html">12 Pack de cerveza Indio </a></h4>
+                  <p class="price">455 ml.</p>
+                  <p class="price">$150 c/u</p>
                   <p class="product-short-description">
-                  Rico Corn Flkaes para las bendis.
+                  12 Pack de Cerveza Indio Obscura.
                   </p>
                   <a href="cart.html" class="btn btn-main">Añadir a carrito</a>
                 </div>
@@ -523,8 +525,8 @@
     </div>
 </div>
 
-<!-- Modal AllBran -->
-<div class="modal product-modal fade" id="product-modal-AllBran">
+<!-- Modal Tecate -->
+<div class="modal product-modal fade" id="product-modal-TecateLight">
   <button type="button" class="close" data-dismiss="modal" aria-label="Close">
     <i class="tf-ion-close"></i>
   </button>
@@ -534,17 +536,17 @@
             <div class="row">
               <div class="col-md-8 col-sm-6 col-xs-12">
                 <div class="modal-image">
-                  <img class="img-responsive" src="images/shop/products/AllBran.jpg" alt="product-img" />
+                  <img class="img-responsive" src="images/shop/products/TecateLight.jpg" alt="product-img" />
                 </div>
               </div>
               <div class="col-md-4 col-sm-6 col-xs-12">
 
                 <div class="product-short-details">
-                  <h4><a href="product-single.html">All Bran </a></h4>
-                  <p class="price">210 gr.</p>
-                	<p class="price">$30 c/u</p>
+                  <h4><a href="product-single.html">Tecate Light </a></h4>
+                  <p class="price">355 ml.</p>
+                  <p class="price">$12 c/u</p>
                   <p class="product-short-description">
-                    Cereal All Bran alto en fibra.
+                    Cerveza Tecate Light de 355 ml.
                   </p>
                   <a href="cart.html" class="btn btn-main">Añadir a carrito</a>
                 </div>

@@ -144,7 +144,8 @@
                                  @endif
                      </div>
 
-              <button type="submit" class="btn btn-main text-center" >Registra tu tienda</button>
+
+              <button type="submit" a href="cart.html" class="btn btn-main text-center" >Registra tu tienda</button>
 
             </div>
           </form>

@@ -32,7 +32,7 @@ class LoginController extends Controller
     {
       session(['apodo' => 'Edd']);
 
-      return '/inicio';
+      return '/Confirmacion';
     }
     protected function loggedOut(Request $request) {
       return redirect('/inicio')->with('notification','Has creado un usuario nuevo');

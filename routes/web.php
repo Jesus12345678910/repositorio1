@@ -21,16 +21,15 @@ Route::get('/registro', function () {
     return view('registro');
 });
 
-Route::get('/compras', function () {
+/*Route::get('/compras', function () {
     return view('comprass');
 });
+Route::get('/Compras-Frutas-Verduras', function () {
+    return view('ComprasFrutasyVerdurass');
+});*/
 
 Route::get('/Detalle-Manzanas', function () {
     return view('DetalleManzanas');
-});
-
-Route::get('/Compras-Frutas-Verduras', function () {
-    return view('ComprasFrutasyVerdurass');
 });
 
 Route::get('/Carrito', function () {
@@ -46,6 +45,8 @@ Route::get('profile', function () {
     // Only verified users may enter...
 })->middleware('verified');
 
+Route::get('/Compras-Frutas-Verduras','PaginasController@ComprasFV');
+Route::get('/Compras','PaginasController@Compras');
 Route::get('/registroUsuario','PaginasController@RegistroUsuario');
 Route::get('/Compras-Bebidas','PaginasController@ComprasBebidas');
 Route::get('/Compras-Alcohol','PaginasController@ComprasAlcohol');

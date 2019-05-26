@@ -7,8 +7,8 @@ Los usuarios compradores van a poder ir filtrando la busqueda para encontrar y c
 '.git clone https://github.com/Jesus12345678910/repositorio1.git'
 'cd AbarrotesMX'
 'composer install'
-'cp.env.example.env'
-'php artissan key::generate'
+'copy .env.example .env'
+'php artisan key:generate'
 
 # Autores
 .Jesus Alberto Garcia Zamudio

@@ -60,9 +60,9 @@
 	                	<ul>
 
 							<li role="separator" class="divider"></li>
-							<li><a href="/compras">Compras</a></li>
-							<li><a href="checkout.html">Método de pago</a></li>
-							<li><a href="cart.html">Carrito</a></li>
+							<li><a href="/Compras">Compras</a></li>
+							<li><a href="/Metodo-Pago">Método de pago</a></li>
+							<li><a href="/Carrito">Carrito</a></li>
 	                	</ul>
 	                </div>
 
@@ -73,57 +73,6 @@
 	          </li><!-- / Elements -->
 
 
-	          <!-- Pages -->
-	          <li class="dropdown full-width dropdown-slide">
-	            <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="350" role="button" aria-haspopup="true" aria-expanded="false">Pages <span class="tf-ion-ios-arrow-down"></span></a>
-	            <div class="dropdown-menu">
-	              	<div class="row">
-
-		                <!-- Introduction -->
-		                <div class="col-sm-3 col-xs-12">
-		                	<ul>
-								<li class="dropdown-header">Introduction</li>
-								<li role="separator" class="divider"></li>
-								<li><a href="contact.html">Contact Us</a></li>
-								<li><a href="about.html">About Us</a></li>
-								<li><a href="404.html">404 Page</a></li>
-								<li><a href="coming-soon.html">Coming Soon</a></li>
-								<li><a href="faq.html">FAQ</a></li>
-		                	</ul>
-		                </div>
-
-		                <!-- Contact -->
-		                <div class="col-sm-3 col-xs-12">
-		                	<ul>
-								<li class="dropdown-header">Dashboard</li>
-								<li role="separator" class="divider"></li>
-								<li><a href="dashboard.html">User Interface</a></li>
-								<li><a href="order.html">Orders</a></li>
-								<li><a href="address.html">Address</a></li>
-								<li><a href="profile-details.html">Profile Details</a></li>
-		                	</ul>
-		                </div>
-
-		                <!-- Utility -->
-		                <div class="col-sm-3 col-xs-12">
-		                	<ul>
-								<li class="dropdown-header">Utility</li>
-								<li role="separator" class="divider"></li>
-								<li><a href="login.html">Login Page</a></li>
-								<li><a href="signin.html">Signin Page</a></li>
-								<li><a href="forget-password.html">Forget Password</a></li>
-		                	</ul>
-		                </div>
-
-		                <!-- Mega Menu -->
-		                <div class="col-sm-3 col-xs-12">
-		                	<a href="shop.html">
-			                	<img class="img-responsive" src="images/shop/header-img.jpg" alt="menu image" />
-		                	</a>
-		                </div>
-	              	</div><!-- / .row -->
-	            </div><!-- / .dropdown-menu -->
-	          </li><!-- / Pages -->
 
 	        </ul><!-- / .nav .navbar-nav -->
 

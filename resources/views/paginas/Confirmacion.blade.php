@@ -13,9 +13,9 @@
       <div class="col-md-6 col-md-offset-3">
         <div class="block text-center">
         	<i class="tf-ion-android-checkmark-circle"></i>
-          <h2 class="text-center">Gracias por tu compra</h2>
-          <p>Tu pedido esta en proceso y en breve será enviado a tu dirección, gracias.</p>
-          <a href="/compras" class="btn btn-main mt-20">Continua comprando</a>
+          <h2 class="text-center">Usuario Logeado Correctamente</h2>
+          <p>Ahora puedes empezar a realizar tus compras.</p>
+          <a href="/Compras" class="btn btn-main mt-20">Comprar</a>
         </div>
       </div>
     </div>

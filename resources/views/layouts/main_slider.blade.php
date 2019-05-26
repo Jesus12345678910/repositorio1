@@ -36,7 +36,7 @@
 					<!-- LAYERS -->
 
 					<!-- LAYER NR. 1 -->
-					<a  href="/compras"
+					<a  href="/Compras"
 						class="tp-caption rev-btn  tp-resizeme"
 						data-x="['left','left','left','left']"
 						data-hoffset="['170','120','70','40']"
@@ -123,7 +123,7 @@
 
 					<!-- LAYER NR. 6 -->
 					<a
-						href="/compras"
+						href="/Compras"
 						class="tp-caption rev-btn  tp-resizeme"
 						data-x="['left','left','left','left']"
 						data-hoffset="['880','760','600','330']"

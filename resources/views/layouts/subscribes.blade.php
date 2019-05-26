@@ -7,7 +7,7 @@
 					<p>Aumenta tus ganancias registrando tu tienda <br>si no pues alv.</p>
 				</div>
 
-				<a href="/registro" button class="btn btn-default" type="button">Registrate Ahora</a></button>
+				<a href="/registroUsuario" button class="btn btn-default" type="button">Registrate Ahora</a></button>
 
 </label>
 				      </span>
