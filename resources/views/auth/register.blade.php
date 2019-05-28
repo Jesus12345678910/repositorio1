@@ -13,7 +13,7 @@
                 <div class="card-header">{{ __('Registrate') }}</div>
 
                 <div class="card-body">
-                    <form method="POST" action="{{ route('register') }}">
+                    <form method="POST" action="{{ route('register') }}" enctype="multipart/form-data">
                         @csrf
 
                         <div class="form-group row">
@@ -163,6 +163,19 @@
                                 <input id="password-confirm" type="password" class="form-control" name="password_confirmation" required placeholder="Confirmar">
                             </div>
                         </div>
+
+                        <!--<div class="form-group">
+                                {{ csrf_field() }}
+                                <label for="archivo"><b>Foto de perfil: </b></label><br>
+                                <input id='archivo' type="file" name="archivo" action="{{route('subir')}}">
+                              </div>-->
+                              <!--<input class="btn btn-success" type="submit" value="Enviar" >-->
+
+                              <!--<div class="form-group">
+                                {!! csrf_field() !!}
+                                  <label> Sube tu foto de perfil</label>
+                                  <input type="file" name="archivo" id="archivo">
+                              </div>-->
 
                         <div class="form-group row mb-0">
                             <div class="col-md-6 offset-md-4">

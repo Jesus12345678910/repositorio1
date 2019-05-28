@@ -65,7 +65,7 @@ Route::get('/tiendas/create', 'TiendasController@create');
 Route::get('/tiendas/{tienda}', 'TiendasController@show');
 Route::post('/tiendas', 'TiendasController@store');
 Route::get('/register/verify/{code}', 'RegisterController@verify');
-
+Route::post('/subir','PaginasController@subirArchivo')->name('subir');
 Auth::routes(['verify' => true]);
 
 Route::get('/home', 'HomeController@index')->name('home');

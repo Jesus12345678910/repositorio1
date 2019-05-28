@@ -134,6 +134,23 @@
                                     </span>
                                 @endif
                     </div>
+
+                    <!--<div class="form-group">
+
+                        <input  id="archivo" type="file" name="archivo" placeholder="Foto de perfil">
+
+                          @if ($request->hasFile('archivo')){
+                              $file = $request->file('archivo');
+                              $name = time().$file->getClientOriginalName();
+
+                              $file->move(public_path(),'/images/profilePhoto', $name);
+                              return $name;
+
+
+                    </div>-->
+
+
+
                     <div class="form-group">
                        <input id="telefono" type="number" class="form-control{{ $errors->has('telefono') ? ' is-invalid' : '' }}" name="telefono" value="{{ old('telefono') }}" required placeholder="Telefono">
 
@@ -143,6 +160,7 @@
                                      </span>
                                  @endif
                      </div>
+
 
 
               <button type="submit" a href="cart.html" class="btn btn-main text-center" >Registra tu tienda</button>

@@ -60,6 +60,7 @@ class RegisterController extends Controller
             'telefono' =>['required','string','max:255'],
             'email' => ['required', 'string', 'email', 'max:255', 'unique:users'],
             'password' => ['required', 'string', 'min:4', 'confirmed'],
+            //'archivo' => ['required', 'string', 'confirmed'],
         ]);
     }
 
@@ -71,6 +72,15 @@ class RegisterController extends Controller
      */
     protected function create(array $data)
     {
+
+      /*if($request->hasFile('userProfile')){
+        $file = $request->file('userProfile');
+        $name = time().$file->getClientOriginalName();
+
+        $file->move(public_path(),'/images', $name);
+        return $name;
+      }*/
+
       $data['confirmation_code'] = str_random(25);
 
         $user = User::create([
@@ -84,8 +94,20 @@ class RegisterController extends Controller
             'telefono' => $data['telefono'],
             'email' => $data['email'],
             'password' => Hash::make($data['password']),
-            'confirmation_code' => $data['confirmation_code']
+            'confirmation_code' => $data['confirmation_code'],
+            //'archivo' => $data['archivo'],
+
+
         ]);
+
+        /*if ($data->hasFile('archivo'));
+        {
+          $file = $data->file('archivo');
+          $data = time().$file->getClientOriginalName();
+
+          $file->move(public_path(),'/images/profilePhoto', $name);
+          //return $name;
+        }*/
 
         //mandar mensaje de confirmacion
         Mail::send('emails.confirmation_code', $data, function($message) use ($data) {

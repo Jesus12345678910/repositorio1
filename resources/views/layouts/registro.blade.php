@@ -151,7 +151,7 @@
                             <div class="form-group">
                           <input id="password-confirm" type="password" class="form-control" name="password_confirmation" required placeholder="Confirmar contraseña">
                       </div>
-
+                    
               <button type="submit" class="btn btn-main text-center" >Inicia Sesión</button>
             </div>
           </form>

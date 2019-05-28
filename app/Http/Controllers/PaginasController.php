@@ -59,7 +59,11 @@ class PaginasController extends Controller
       return view('ComprasAlcohol');
     }
 
-
+    public function subirArchivo(Request $request)
+    {
+      $request->file('archivo')->store('public/profilePhoto');
+        dd("subido y guardado");
+    }
     public function bienvenida($nombre, $apellido= null)
     {
         return view('paginas.bienvenida')
